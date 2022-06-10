@@ -25,7 +25,7 @@ const Features = () => {
             Brand Recognition
           </h5>
           <p className="text-center text-gray-400 md:text-left">
-            Boost your brand recognition with each click. Generic links don't
+            Boost your brand recognition with each click. Generic links do not
             mean a thing. Branded links help instil confidence in your content.
           </p>
         </div>
