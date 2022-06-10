@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -9,24 +10,28 @@ const Hero = () => {
             More than just shorter links
           </h1>
           <p className="text-2xl text-center text-gray-400 lg:max-w-md lg:text-left">
-            Build your brand's recognition and get detailed insights on how your
+            Build your brand recognition and get detailed insights on how your
             links are performing.
           </p>
 
           <div className="mx-auto lg:mx-0">
-            <a
-              href=""
-              className="py-5 px-10 text-2xl font-bold text-white bg-cyan rounded-full lg:py-4 hover:opacity-70"
-            >
-              Get Started
-            </a>
+            <div className="py-5 px-10 text-2xl font-bold text-white bg-cyan rounded-full lg:py-4 hover:opacity-70">
+              <Link
+                href=""
+                
+              >
+                Get Started
+              </Link>
+            </div>
           </div>
 
           <div>
-              <img src="/images/illustration-working.svg" className="mb-24 mx-auto md:w-180 lg:mb-0 lg:w-1/2" alt="" />
+            <img
+              src="/images/illustration-working.svg"
+              className="mb-24 mx-auto md:w-180 lg:mb-0 lg:w-1/2"
+              alt=""
+            />
           </div>
-
-
         </div>
       </div>
     </div>

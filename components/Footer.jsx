@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -11,28 +12,28 @@ const Footer = () => {
              {/* Menu 1 */}
              <div className="flex flex-col items-center w-full md:items-start">
                  <div className="mb-5 font-bold text-white capitalize">Features</div>
-                 <div className="flex flex-col items-center space-y-3 md:items-start">
-                     <a href="#" className="capitalize text-grayishViolet hover:text-cyan">Link shortening</a>
-                     <a href="#" className="capitalize text-grayishViolet hover:text-cyan">Branded links</a>
-                     <a href="#" className="capitalize text-grayishViolet hover:text-cyan">Analytics</a>
+                 <div className="flex flex-col items-center space-y-3 md:items-start text-grayishViolet hover:text-cyan">
+                     <Link href="#" className="capitalize text-grayishViolet hover:text-cyan">Link shortening</Link>
+                     <Link href="#" className="capitalize text-grayishViolet hover:text-cyan">Branded links</Link>
+                     <Link href="#" className="capitalize text-grayishViolet hover:text-cyan">Analytics</Link>
                  </div>
              </div>
              {/* Menu 2 */}
-             <div className="flex flex-col items-center w-full md:items-start">
+             <div className="flex flex-col items-center w-full md:items-start text-grayishViolet hover:text-cyan">
                  <div className="mb-5 font-bold text-white capitalize">Features</div>
                  <div className="flex flex-col items-center space-y-3 md:items-start">
-                     <a href="#" className="capitalize text-grayishViolet hover:text-cyan">Link shortening</a>
-                     <a href="#" className="capitalize text-grayishViolet hover:text-cyan">Branded links</a>
-                     <a href="#" className="capitalize text-grayishViolet hover:text-cyan">Analytics</a>
+                     <Link href="#" className="capitalize text-grayishViolet hover:text-cyan">Link shortening</Link>
+                     <Link href="#" className="capitalize text-grayishViolet hover:text-cyan">Branded links</Link>
+                     <Link href="#" className="capitalize text-grayishViolet hover:text-cyan">Analytics</Link>
                  </div>
              </div>
              {/* Menu 3 */}
-             <div className="flex flex-col items-center w-full md:items-start">
+             <div className="flex flex-col items-center w-full md:items-start text-grayishViolet hover:text-cyan">
                  <div className="mb-5 font-bold text-white capitalize">Features</div>
                  <div className="flex flex-col items-center space-y-3 md:items-start">
-                     <a href="#" className="capitalize text-grayishViolet hover:text-cyan">Link shortening</a>
-                     <a href="#" className="capitalize text-grayishViolet hover:text-cyan">Branded links</a>
-                     <a href="#" className="capitalize text-grayishViolet hover:text-cyan">Analytics</a>
+                     <Link href="#" className="capitalize text-grayishViolet hover:text-cyan">Link shortening</Link>
+                     <Link href="#" className="capitalize text-grayishViolet hover:text-cyan">Branded links</Link>
+                     <Link href="#" className="capitalize text-grayishViolet hover:text-cyan">Analytics</Link>
                  </div>
              </div>
           </div>
